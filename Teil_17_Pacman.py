@@ -182,9 +182,9 @@ pgf.setAutoUpdate(False)
 punkte = punkteSetzen()
 pacman = Pacman('pacman', (336,564))
 blinky = Geist('blinky', (360,276), 'Teil_17_Blinky_tileset.png')
-pinky = Geist('pinky', (300,348), 'Teil_17_pinky_tileset.png')
-inky = Geist('inky', (348,348), 'Teil_17_inky_tileset.png')
-clyde = Geist('clyde', (396,348), 'Teil_17_clyde_tileset.png')
+pinky = Geist('pinky', (300,348), 'Teil_17_Pinky_tileset.png')
+inky = Geist('inky', (348,348), 'Teil_17_Inky_tileset.png')
+clyde = Geist('clyde', (396,348), 'Teil_17_Clyde_tileset.png')
 figuren = [pacman, blinky, pinky, inky, clyde]
 
 nächsteAnimation = pgf.clock() + 100
